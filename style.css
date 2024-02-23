@@ -1,9 +1,3 @@
-input:invalid {
-    background-color: pink;
-    border: 2px solid red;
-}
-
-input:valid{
-    background-color: beige;
-    border: 5px solid brown;
+main>*{
+    color: red;
 }
