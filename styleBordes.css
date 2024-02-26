@@ -1,0 +1,28 @@
+*{
+    background-color: antiquewhite;
+}
+
+.text{
+    padding: 5px;
+    margin: 30px;
+    border: solid 1px;
+    width: 250px;
+    background-color: gainsboro;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.text-1{
+    text-align: left;
+}
+
+.text-2{
+    text-align: center;
+}
+
+.text-3{
+    text-align: right;
+}

@@ -1,0 +1,23 @@
+*{
+    background-color: antiquewhite;
+}
+
+h1{
+    color: red
+}
+
+h1:hover{
+    color: cadetblue;
+}
+
+p{
+    column-count: 3;
+    column-rule-style: groove;
+    column-rule-color: red;
+    column-rule-width: 2px;
+    column-gap: 40px;
+}
+
+p:hover{
+    background-color: thistle;
+}

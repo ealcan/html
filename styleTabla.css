@@ -1,0 +1,25 @@
+
+table{
+    margin: 30px;
+    border: solid 3px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+tfoot, span{
+    background-color: deepskyblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bordes{
+    border-bottom: solid 2px;
+    width: 150px;
+    border-left: solid 1px;
+}
+
+.fila-1{
+    font-weight: bold;
+}
