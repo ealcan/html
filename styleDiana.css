@@ -1,0 +1,108 @@
+
+.linea-1{
+    width: 500px;
+    height: 500px;
+    border-top: solid 2px black;
+    bottom: 250px;
+    position: relative;
+    
+    margin-left: 250px;
+}
+
+.linea-2{
+    width: 500px;
+    height: 500px;
+    left: 250px;
+    bottom: 1004px;
+    position: relative;
+    border-left: solid 2px black;
+    
+    margin-left: 250px;
+}
+
+.nivel-3,.nivel-5,.nivel-7,.nivel-9,.nivel-11{
+    background-color: red;
+}
+
+.borde,.nivel-6,.nivel-8,.nivel-10{
+    background-color:white;
+}
+
+.nivel{
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    top: 25px;
+    left: 25px;
+    position: relative;
+}
+
+.contorno{
+    width: 500px;
+    height: 500px;
+    background-color: gainsboro;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 3px -2px black;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    margin-left: 250px;
+    margin-top: 250px;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 20px 15px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.nivel-3{
+    width: 450px;
+    height: 450px;
+}
+
+.borde{
+    width: 440px;
+    height: 440px;
+    top: 5px;
+    left: 5px;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.nivel-5{
+    width: 390px;
+    height: 390px;
+}
+
+.nivel-6{
+    width: 340px;
+    height: 340px;
+}
+
+.nivel-7{
+    width: 290px;
+    height: 290px;
+}
+
+.nivel-8{
+    width: 240px;
+    height: 240px;
+}
+
+.nivel-9{
+    width: 190px;
+    height: 190px;
+}
+
+.nivel-10{
+    width: 140px;
+    height: 140px;
+}
+.nivel-11{
+    width: 90px;
+    height: 90px;
+}
