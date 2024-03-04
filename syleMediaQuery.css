@@ -1,0 +1,131 @@
+.verde, .azul, .grises, .naranja{
+    margin:5px;
+}
+
+.verde{
+    background-color: yellowgreen;
+    width: auto;
+    height: 60px;
+}
+
+.naranja{
+    background-color: orange;
+    height: 30px;
+}
+
+.azul{
+    background-color: rgb(4, 114, 183);
+    height: 100px;
+}
+
+.gris-1{
+    background-color: gainsboro;
+    height: 30px;
+}
+
+
+@media (width < 768px) and (width > 320px) {
+
+    .grises{
+        flex-direction: column;
+    }
+
+    .gris-1{
+        background-color: gainsboro;
+        height: 40px;
+        width: 49%;
+        float: right;
+        margin-bottom: 5px;
+    }
+
+    .gris-2{
+        background-color: gainsboro;
+        width: 49%;
+        height: 40px; 
+        float: left;
+        margin-bottom: 5px;
+        
+    }
+
+    .gris-3{
+        background-color: gainsboro;
+        width: 49%;
+        height: 40px;  
+        float: right;
+    }
+
+    .gris-4{
+        background-color: gainsboro;
+        width: 49%;
+        height: 40px;   
+        float: left; 
+    }
+
+    .azul{
+        height: 50px;
+    }
+
+    .verde{
+        height: 130px;
+    }
+}
+
+@media (width > 768px){
+    .verde, .azul, .grises, .naranja{
+        margin:15px;
+    }
+    .naranja{
+        flex-direction: column;
+        height: 50px;
+    }
+    .naranja-1{
+        float: left;
+        width: 47.5%;
+        margin-right: 0px;
+
+    }
+    .naranja-2{
+        float: right;
+        width: 47.5%;
+        margin-left: 1px;
+    }
+
+    .verde{
+        clear: both;
+        height: 200px;
+    }
+
+    .azules{
+        display: flex;
+        margin: 0px;
+    }
+
+    .azul{
+        justify-items: center;
+        width: 33%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .azul-2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .grises{
+        display: flex;
+        
+    }
+    .gris{
+        justify-items: center;
+        background-color: gainsboro;
+        height: 60px;
+        margin: 5px;
+        width: 25%;
+    }
+    .gris-1{
+        margin-left: 0px;
+    }
+    .gris-4{
+        margin-right: 0px;
+    }
+}
+
